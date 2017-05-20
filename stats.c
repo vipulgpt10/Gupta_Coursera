@@ -9,13 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Source code file for statistical Analysis of a given dataset
  *
- * <Add Extended Description Here>
+ * This file contains a couple of functions that can analyze an array of unsigned
+ * char data items and report analytics on the maximum, minimum, mean, and 
+ * median of the data set. After analysis and sorting is done, the data is 
+ * displayed to the screen in nicely formatted presentation.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Vipul Gupta
+ * @date 20 May 2017
  *
  */
 
@@ -41,3 +44,45 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char d_mean, unsigned char d_median, unsigned char d_max, unsigned char d_min)() {
+
+}
+
+void print_array(unsigned char* dset, unsigned int dsize) {
+
+}
+
+unsigned char find_median(unsigned char* dset, unsigned int dsize) {
+
+}
+
+unsigned char find_mean(unsigned char* dset, unsigned int dsize) {
+
+}
+
+unsigned char find_maximum(unsigned char* dset, unsigned int dsize) {
+
+}
+
+unsigned char find_minimum(unsigned char* dset, unsigned int dsize) {
+
+}
+
+void sort_array(unsigned char* dset, unsigned int dsize) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

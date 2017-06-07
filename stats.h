@@ -38,7 +38,9 @@
  * @param d_min The minimum value
  *
  */
-void print_statistics(unsigned char d_mean, unsigned char d_median, unsigned char d_max, unsigned char d_min);
+void print_statistics(unsigned char d_mean, 
+					  unsigned char d_median, 
+					  unsigned char d_max, unsigned char d_min);
 
 /**
  * @brief Prints the array to the screen

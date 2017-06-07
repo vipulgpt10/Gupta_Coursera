@@ -56,7 +56,9 @@ void main() {
 
 /* Add other Implementation File Code Here */
 
-void print_statistics(unsigned char d_mean, unsigned char d_median, unsigned char d_max, unsigned char d_min) {
+void print_statistics(unsigned char d_mean, 
+					  unsigned char d_median, 
+					  unsigned char d_max, unsigned char d_min) {
 
 	printf("--------------\n");
 	printf(" Minimum = %d \n", d_min);
